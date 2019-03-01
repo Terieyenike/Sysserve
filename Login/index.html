@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Teri Eyenike" />
+    <meta name="description" content="Instanta Login Dashboard" />
+    <meta name="keywords" content="Login, Instanta account login" />
+    <link rel="stylesheet" href="" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title>Instanta Login</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="leftForm">
+        <img src="img/instanta-logo.png" alt="" class="img img-left" />
+        <div class="right">
+          <h2>For every minute spent organizing, an hour is earned.</h2>
+          <p>Benjamin Franklin</p>
+        </div>
+      </div>
+      <div class="rightform">
+        <img src="img/fieldco-logo.png" alt="" class="img img-right" />
+        <div class="rightside">
+          <h2>Login</h2>
+          <p class="error-msg">
+            <i class="fas fa-square"></i> Username or password is incorrect
+          </p>
+          <form>
+            <label for="login">E-mail</label>
+            <input
+              type="text"
+              name="email"
+              placeholder="something@example.com"
+            />
+            <label for="password" class="pwd">Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="something you only know"
+            />
+          </form>
+          <div class="belowForm">
+            <button id="login">Login</button>
+            <p>Forgot password</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+</html>

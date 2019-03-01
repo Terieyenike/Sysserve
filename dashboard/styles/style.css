@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma,
+    Sans-Serif;
+  font-weight: normal;
+  color: #272727;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.instanta {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(auto-fit, minmax(400, 1fr));
+}
+
+.instanta > * {
+  border: 1px solid black;
+}
